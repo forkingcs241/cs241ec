@@ -11,6 +11,7 @@ Netid & Full Name & Section Name (AD0,1,2) at the top of each page!
 3.	How are C strings represented in memory? What is the wrong with malloc(strlen(s)) ?
 4.	Why is strncat and strncpy considered safer versions of strcat and strcpy? Write an implementation of strncat and strncpy
 5.	On a separate sheet write a program that reads a series of lines from stdin and prints them to sdout using fgets or readline. Your program should stop if a read error or end of file occurs
+
 ###Part 2. Memory (10pts)
 1.	Briefly explain how a virtual address is converted into a physical address using a multi-level page table. You may use a concrete example e.g. a 64bit machine with 4KB pages
 2.	Briefly explain Knuth's memory allocation scheme and the buddy allocation scheme
@@ -19,6 +20,7 @@ Netid & Full Name & Section Name (AD0,1,2) at the top of each page!
 5.	What is the working set? How is it computed?
 6.	What is thrashing? When does it occur?
 7.	What is a page fault? When is it an error? When is it not an error?
+
 ###Part 3. Processes and Threads (10pts)
 1.	What resources are shared between threads in the same process?
 2.	Explain the actions required to perform a process context switch
@@ -26,6 +28,7 @@ Netid & Full Name & Section Name (AD0,1,2) at the top of each page!
 4.	How can a process be orphaned? What does the process do about it?
 5.	How do you create a process zombie?
 6.	Write example code using fork and waitpid to start and wait for another program to finish.
+
 ###Part 4. Scheduling (10pts)
 1.	Define turnaround time, waiting time and response time in the context of scheduling algorithms.
 2.	What is starvation?  Which scheduling policies have the possibility of resulting in starvation?
