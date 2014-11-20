@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <title>Cs241ec by forkingcs241</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="inner">
+
+        <header>
+          <h1>Cs241ec</h1>
+          <h2>everyone... work on the answers here</h2>
+        </header>
+
+        <section id="downloads" class="clearfix">
+          <a href="https://github.com/forkingcs241/cs241ec/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
+          <a href="https://github.com/forkingcs241/cs241ec/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
+          <a href="https://github.com/forkingcs241/cs241ec" id="view-on-github" class="button"><span>View on GitHub</span></a>
+        </section>
+
+        <hr>
+
+        <section id="main_content">
+          <h1>
+<a id="cs241---lawrence-angrave-l29--homework-4" class="anchor" href="#cs241---lawrence-angrave-l29--homework-4" aria-hidden="true"><span class="octicon octicon-link"></span></a>CS241   Lawrence Angrave L29 – Homework (4%)</h1>
+
+<h2>
+<a id="thanksgiving-homework-aka-exam-review-will-be-worth-4-of-your-gradebring-your-printed-work-to-wed-class-after-break-some-of-the-questions-require-research-old-slides-wikipedia" class="anchor" href="#thanksgiving-homework-aka-exam-review-will-be-worth-4-of-your-gradebring-your-printed-work-to-wed-class-after-break-some-of-the-questions-require-research-old-slides-wikipedia" aria-hidden="true"><span class="octicon octicon-link"></span></a>Thanksgiving homework (aka Exam-review) will be worth 4% of your grade.Bring your printed work to Wed class after break. Some of the questions require research (old slides; wikipedia).</h2>
+
+<p>Netid &amp; Full Name &amp; Section Name (AD0,1,2) at the top of each page!</p>
+
+<h3>
+<a id="part-1-c-10pts" class="anchor" href="#part-1-c-10pts" aria-hidden="true"><span class="octicon octicon-link"></span></a>Part 1. C (10pts)</h3>
+
+<ol>
+<li> What is the difference between a library call and a system call. Give one example of each</li>
+<li> What is the * operator in C? What is the &amp; operator? Give an example of each.</li>
+<li> How are C strings represented in memory? What is the wrong with malloc(strlen(s)) ?</li>
+<li> Why is strncat and strncpy considered safer versions of strcat and strcpy? Write an implementation of strncat and strncpy</li>
+<li> On a separate sheet write a program that reads a series of lines from stdin and prints them to sdout using fgets or readline. Your program should stop if a read error or end of file occurs</li>
+</ol>
+
+<h3>
+<a id="part-2-memory-10pts" class="anchor" href="#part-2-memory-10pts" aria-hidden="true"><span class="octicon octicon-link"></span></a>Part 2. Memory (10pts)</h3>
+
+<ol>
+<li> Briefly explain how a virtual address is converted into a physical address using a multi-level page table. You may use a concrete example e.g. a 64bit machine with 4KB pages</li>
+<li> Briefly explain Knuth's memory allocation scheme and the buddy allocation scheme</li>
+<li> What is the difference between the MMU and TLB? What is the purpose of each?</li>
+<li> Assuming 4KB page tables what is the page number and offset for virtual address 0x12345678  ?</li>
+<li> What is the working set? How is it computed?</li>
+<li> What is thrashing? When does it occur?</li>
+<li> What is a page fault? When is it an error? When is it not an error?</li>
+</ol>
+
+<h3>
+<a id="part-3-processes-and-threads-10pts" class="anchor" href="#part-3-processes-and-threads-10pts" aria-hidden="true"><span class="octicon octicon-link"></span></a>Part 3. Processes and Threads (10pts)</h3>
+
+<ol>
+<li> What resources are shared between threads in the same process?</li>
+<li> Explain the actions required to perform a process context switch</li>
+<li> Explain the actions required to perform a thread context switch (to a thread in the same process)</li>
+<li> How can a process be orphaned? What does the process do about it?</li>
+<li> How do you create a process zombie?</li>
+<li> Write example code using fork and waitpid to start and wait for another program to finish.</li>
+</ol>
+
+<h3>
+<a id="part-4-scheduling-10pts" class="anchor" href="#part-4-scheduling-10pts" aria-hidden="true"><span class="octicon octicon-link"></span></a>Part 4. Scheduling (10pts)</h3>
+
+<ol>
+<li> Define turnaround time, waiting time and response time in the context of scheduling algorithms.</li>
+<li> What is starvation?  Which scheduling policies have the possibility of resulting in starvation?</li>
+<li> Which scheduling algorithm results the smallest average wait time?</li>
+<li> What scheduling algorithm has the longest average response time?</li>
+<li> Why do processes need to be scheduled?</li>
+<li> How does bounded wait apply to scheduling? </li>
+<li> Which scheduling algorithm minimizes average initial response time? Waiting time? Total response time?</li>
+<li> Describe Round-Robin scheduling and its performance advantages and disadvantages.</li>
+<li> Describe the First Come First Serve (FCFS) scheduling algorithm. Explain the performance advantages and disadvantages.</li>
+<li>Describe the Pre-emptive and Non-preemptive SJF scheduling algorithms. Explain the performance advantages and disadvantages.</li>
+<li>Describe the Preemptive Priority-based scheduling algorithm. Explain the performance advantages and disadvantages.</li>
+<li>How does the length of the time quantum affect Round-Robin scheduling?</li>
+<li>Define fairness in terms of scheduling algorithms. What are the fairness properties of each of the scheduling disciplines discussed in class?</li>
+<li>A process was switched from running to ready state.  Describe the characteristics of the scheduling algorithm being used.</li>
+</ol>
+
+<h3>
+<a id="part-5-synchronization-and-deadlock10pts" class="anchor" href="#part-5-synchronization-and-deadlock10pts" aria-hidden="true"><span class="octicon octicon-link"></span></a>Part 5. Synchronization and Deadlock(10pts)</h3>
+
+<ol>
+<li> Why might a system use a resource allocation graph?</li>
+<li> Define circular wait, mutual exclusion, hold and wait, and no preemption. How are these related to deadlock?</li>
+<li> What problem does the Banker's Algorithm solve? Provide a worked example to illustrate your main point.</li>
+<li> What is the difference between Deadlock Prevention, Deadlock Detection and Deadlock Avoidance? Give examples of each.</li>
+</ol>
+
+<h3>
+<a id="part-6-ipc-and-signals10pts" class="anchor" href="#part-6-ipc-and-signals10pts" aria-hidden="true"><span class="octicon octicon-link"></span></a>Part 6. IPC and signals(10pts)</h3>
+
+<ol>
+<li> What are the differences between a FIFO (named pipe) and a pipe?</li>
+<li> How do you redirect standard output to a file?</li>
+<li> Write a brief code example that uses dup2 and fork to redirect a child process output to a pipe</li>
+<li> What signals can be caught or ignored?</li>
+<li> What signals can cannot be caught?</li>
+<li> Write brief code that uses sigaction and a signalset to create a SIGALRM handler</li>
+<li> Use a brief code example to explain the problem of 'async signal safe'</li>
+</ol>
+
+<h3>
+<a id="part-7-networking-10pts" class="anchor" href="#part-7-networking-10pts" aria-hidden="true"><span class="octicon octicon-link"></span></a>Part 7. Networking (10pts)</h3>
+
+<ol>
+<li> Explain the purpose of socket, bind, listen accept functions</li>
+<li> Write brief (single-threaded) code using getaddrinfo to create a UDP IPv4. Your server should print the contents of the packet or stream to standard out until an exclamation point "!" is read.</li>
+<li> Write brief (single-threaded) code using getaddrinfo to create a TCP IPv4 server. Your server should print the contents of the packet or stream to standard out until an exclamation point "!" is read.</li>
+<li> Explain the main differences between using select and epoll. Briefly explain what 'edge' and 'level triggered' means in the context of epoll</li>
+</ol>
+
+<h3>
+<a id="part-8-networking-10pts" class="anchor" href="#part-8-networking-10pts" aria-hidden="true"><span class="octicon octicon-link"></span></a>Part 8. Networking (10pts)</h3>
+
+<ol>
+<li> Describe the services provided by TCP.</li>
+<li> How does TCP connection establishment work?</li>
+<li> Describe the differences between TCP and UDP.</li>
+<li> How does the Domain Name System (DNS) work?</li>
+<li> How does DNS use caching?</li>
+<li> How is DNS related to IP?</li>
+<li>What is NAT?  How does NAT work?</li>
+</ol>
+
+<h3>
+<a id="part-9-files-10pts" class="anchor" href="#part-9-files-10pts" aria-hidden="true"><span class="octicon octicon-link"></span></a>Part 9 Files (10pts)</h3>
+
+<ol>
+<li> Write code that uses read and write to copy the contents of a file</li>
+<li> Write brief code to create a symbolic link and hard link to the file /etc/password</li>
+<li> Briefly explain permission bits (including sticky and setuid bits) for files and directories</li>
+<li> Write brief code to create a function that returns true if a path is a directory.</li>
+<li> Write brief code to recursive search user's home directory and sub-directories (use getenv) for a file named "xkcd-functional.png' If the file is found, print the path to standard out</li>
+</ol>
+
+<h3>
+<a id="part-10-file-system-10pts" class="anchor" href="#part-10-file-system-10pts" aria-hidden="true"><span class="octicon octicon-link"></span></a>Part 10. File system (10pts)</h3>
+
+<ol>
+<li> Given a description of the block size and i-node structure , what is the maximum size of a file? Assume 10 direct blocks, a pointer to an indirect block, double-indirect, and triple indirect block and a block size of 4KB</li>
+<li> In a file system with 4KB files a file uses 10 direct blocks, a completely full indirect block and one double-indirect block which has one entry to a half-full indirect block. How disk blocks does the file use including its content, the inode, and all indirect , double-indirect blocks?</li>
+<li> How many i-node reads are required to fetch the file access time at /var/log/dmesg ? Assume the inode of (/) is cached in memory</li>
+<li> What information is stored in an i-node?  What information isn’t?</li>
+<li> When the size of a block changes in an i-node based file system, how does this change the maximum size of a file?</li>
+<li> If an i-node based file system has a certain number of direct and single-indirect blocks, how large is the file?</li>
+<li> When would fstat return different information that lstat?</li>
+</ol>
+
+<h3>
+<a id="part-11-i-know-whats-in-the-exam-because-i-wrote-it-bonus-10pt" class="anchor" href="#part-11-i-know-whats-in-the-exam-because-i-wrote-it-bonus-10pt" aria-hidden="true"><span class="octicon octicon-link"></span></a>Part 11. "I know what's in the exam because I wrote it" (bonus 10pt)</h3>
+
+<p>On a separate piece of paper (with netid, name,section) design three questions for CS241 final exam: Write one multiple choice question, one short answer and one long answer coding-question . Provide model answers for each of your three questions.</p>
+        </section>
+
+        <footer>
+          Cs241ec is maintained by <a href="https://github.com/forkingcs241">forkingcs241</a><br>
+          This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
+        </footer>
+
+        
+      </div>
+    </div>
+  </body>
+</html>
