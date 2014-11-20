@@ -41,6 +41,7 @@ Netid & Full Name & Section Name (AD0,1,2) at the top of each page!
 12.	How does the length of the time quantum affect Round-Robin scheduling?
 13.	Define fairness in terms of scheduling algorithms. What are the fairness properties of each of the scheduling disciplines discussed in class?
 14.	A process was switched from running to ready state.  Describe the characteristics of the scheduling algorithm being used.
+
 ###Part 5. Synchronization and Deadlock(10pts)
 1.	Why might a system use a resource allocation graph?
 2.	Define circular wait, mutual exclusion, hold and wait, and no preemption. How are these related to deadlock?
